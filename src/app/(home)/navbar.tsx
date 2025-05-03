@@ -6,7 +6,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React, { useState } from "react";
 import { NavbarSidebar } from "./navbar-sidebar";
-import { MenuIcon, X } from "lucide-react";
+import { MenuIcon } from "lucide-react";
 
 const poppins = Poppins({
     subsets: ["latin"],
